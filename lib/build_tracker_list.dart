@@ -15,7 +15,7 @@ class TrackerListBuilder extends StatelessWidget {
         padding: EdgeInsets.all(20.0),
         alignment: Alignment.center,
         child: Text(
-          "Aucun Traker en cours",
+          "Pas de données",
           textAlign: TextAlign.center,
           style: TextStyle(
             color: Colors.orange[600],
@@ -40,7 +40,6 @@ class TrackerListBuilder extends StatelessWidget {
                 children: [
                   Container(
                     alignment: Alignment.centerRight,
-                    // color: Colors.red,
                     width: 45.0,
                     height: 40.0,
                     child: Text(
@@ -50,17 +49,13 @@ class TrackerListBuilder extends StatelessWidget {
                     color: flutter ? Colors.blue : Colors.black,
                     fontWeight: FontWeight.normal,
                   ),
-                      // style: TextStyle(
-                      //   fontSize: 16.0,
-                      //   color: flutter ? Colors.blue : Colors.black,
-                      // ),
+                     
                     ),
                   ),
                   SizedBox(
                     width: 20.0,
                   ),
                   Container(
-                    // color: Colors.red,
                     alignment: Alignment.centerLeft,
                     width: 300.0,
                     height: 40.0,
@@ -77,7 +72,6 @@ class TrackerListBuilder extends StatelessWidget {
                     width: 20.0,
                   ),
                   Container(
-                    // color: Colors.red,
                     alignment: Alignment.centerRight,
                     width: 75.0,
                     height: 40.0,

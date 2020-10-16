@@ -23,12 +23,14 @@ class HomeScreen extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(
+              height: 20.0,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
                   alignment: Alignment.centerRight,
-                  // color: Colors.blue,
                   width: 45.0,
                   height: 30.0,
                   child: Text(
@@ -44,7 +46,6 @@ class HomeScreen extends StatelessWidget {
                   width: 20.0,
                 ),
                 Container(
-                  // color: Colors.blue,
                   alignment: Alignment.centerLeft,
                   width: 300.0,
                   height: 30.0,
@@ -61,7 +62,6 @@ class HomeScreen extends StatelessWidget {
                   width: 20.0,
                 ),
                 Container(
-                  // color: Colors.blue,
                   alignment: Alignment.centerRight,
                   width: 75.0,
                   height: 30.0,
@@ -75,9 +75,6 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
               ],
-            ),
-            SizedBox(
-              height: 20.0,
             ),
             TrackerListBuilder(),
           ],
