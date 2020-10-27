@@ -45,11 +45,11 @@ class TrackerListBuilder extends StatelessWidget {
                     child: Text(
                       "${index + 1}",
                       style: GoogleFonts.roboto(
-                    fontSize: 18.0,
-                    color: flutter ? Colors.blue : Colors.black,
-                    fontWeight: FontWeight.normal,
-                  ),
-                     
+                        fontSize: 18.0,
+                        color: flutter ? Colors.blue : Colors.black,
+                        fontWeight:
+                            flutter ? FontWeight.bold : FontWeight.normal,
+                      ),
                     ),
                   ),
                   SizedBox(
@@ -62,10 +62,10 @@ class TrackerListBuilder extends StatelessWidget {
                     child: Text(
                       "${repo.fullName}",
                       style: GoogleFonts.roboto(
-                    fontSize: 18.0,
-                    color: flutter ? Colors.blue : Colors.black,
-                    fontWeight: FontWeight.normal,
-                  ),
+                        fontSize: 18.0,
+                        color: flutter ? Colors.blue : Colors.black,
+                        fontWeight: flutter ? FontWeight.bold : FontWeight.normal,
+                      ),
                     ),
                   ),
                   SizedBox(
@@ -78,10 +78,10 @@ class TrackerListBuilder extends StatelessWidget {
                     child: Text(
                       "${repo.stargazersCount.toString()}",
                       style: GoogleFonts.roboto(
-                    fontSize: 18.0,
-                    color: flutter ? Colors.blue : Colors.black,
-                    fontWeight: FontWeight.normal,
-                  ),
+                        fontSize: 18.0,
+                        color: flutter ? Colors.blue : Colors.black,
+                        fontWeight: flutter ? FontWeight.bold : FontWeight.normal,
+                      ),
                     ),
                   ),
                 ],
